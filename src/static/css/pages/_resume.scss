@@ -58,7 +58,7 @@
     }
 
     .course-list {
-      text-align: center;
+      text-align: left;
 
       h4 {
         white-space: nowrap;
@@ -71,7 +71,7 @@
     margin-top: 2em;
 
     .title {
-      text-align: center;
+      text-align: Center;
 
       p {
         font-size: 0.9em;
@@ -156,7 +156,7 @@
     letter-spacing: 0.25em;
     line-height: 2.5;
     margin-top: -1em;
-    text-transform: uppercase;
+    text-transform: none;
   }
 
   ul li {

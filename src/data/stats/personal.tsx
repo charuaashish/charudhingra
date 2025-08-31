@@ -25,21 +25,16 @@ const Age: React.FC = () => {
 };
 
 const data: StatData[] = [
-  {
-    key: 'age',
-    label: 'Current age',
-    value: <Age />,
-  },
+
   {
     key: 'countries',
     label: 'Countries visited',
-    value: 53,
-    link: 'https://www.google.com/maps/d/embed?mid=1iBBTscqateQ93pWFVfHCUZXoDu8&z=2',
+    value: 3,
   },
   {
     key: 'location',
     label: 'Current city',
-    value: 'New York, NY',
+    value: 'Lake Saint Louis, MO',
   },
 ];
 

@@ -65,7 +65,7 @@ const Skills: React.FC<SkillsProps> = ({ skills, categories }) => {
       <div className="title">
         <h3>Skills</h3>
         <p>
-          Note: I think these sections are silly, but everyone seems to have one. Here is a *mostly*
+          Note: Here is a *mostly*
           honest overview of my skills.
         </p>
       </div>

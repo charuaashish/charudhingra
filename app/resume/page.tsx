@@ -15,15 +15,15 @@ import work from '@/data/resume/work';
 export const metadata: Metadata = {
   title: 'Resume',
   description:
-    "Michael D'Angelo's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook.",
+    "Charu Dhingra's resume.",
 };
 
 const sections = [
   { name: 'Education', id: 'education' },
   { name: 'Experience', id: 'experience' },
+  { name: 'Key Achievements', id: 'courses' },
   { name: 'Skills', id: 'skills' },
-  { name: 'Courses', id: 'courses' },
-  { name: 'References', id: 'references' },
+
 ];
 
 export default function ResumePage() {
@@ -52,20 +52,19 @@ export default function ResumePage() {
         <Experience data={work} />
       </section>
 
+      <section id="Key Acheivements" className="courses">
+        <div className="link-to" />
+        <Courses data={courses} />
+      </section>
+
       <section id="skills" className="skills">
         <div className="link-to" />
         <Skills skills={skills} categories={categories} />
       </section>
 
-      <section id="courses" className="courses">
-        <div className="link-to" />
-        <Courses data={courses} />
-      </section>
+     
 
-      <section id="references" className="references">
-        <div className="link-to" />
-        <References />
-      </section>
+
     </article>
   );
 }

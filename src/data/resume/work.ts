@@ -13,129 +13,89 @@ export interface Position {
 
 const work: Position[] = [
   {
-    name: 'Promptfoo',
-    position: 'Co-founder & CTO',
-    url: 'https://promptfoo.dev',
-    startDate: '2024-07-01',
-    summary:
-      'Promptfoo builds open-source tools to evaluate, find, and fix vulnerabilities in large language models (LLMs). Our open-source tools are used by over 35,000 developers and researchers worldwide.',
+    name: 'Capgemini Solutions Canada Inc.',
+    position: 'Senior Manager',
+    url: 'https://www.capgemini.com/ca-en/',
+    startDate: 'August 2022',
+    endDate: 'July 2024',
     highlights: [
-      'Built and scaled engineering team, emphasizing diversity and open-source contribution',
-      'Established key partnerships with AI research institutions and tech companies',
+      'Led a team to design, implement, and integrate Data Governance, Data Quality, and Data Privacy solutions across enterprise platforms.',
+      'Collected & maintained metadata across enterprise applications to support data cataloging, lineage tracking, and governance initiatives, guiding team members in these efforts.',
+      'Developed and maintained Glossaries, Lineage, and Data Asset Inventory in Informatica Axon to strengthen enterprise-wide data governance practices, with direct oversight and individual contributions.'
+      , 'Built Data Quality rules in Informatica Analyst and ETL mappings in IDQ Developer, monitored KPIs, and reported data health to stakeholders, combining leadership with hands-on execution.'
+      , 'Partnered with business and stakeholders to identify opportunities, plan roadmaps, and ensure on-time delivery of governance initiatives'
+  
     ],
   },
   {
-    name: 'Smile Identity',
-    position: 'VP Engineering & Head of AI',
-    url: 'https://smileidentity.com',
-    startDate: '2022-01-01',
-    endDate: '2024-07-01',
-    summary: `Smile builds machine learning APIs to compare user submitted photos to ID documents. Our APIs are
-    used by hundreds of thousands of people every day to access financial services. As VP of Engineering,
-    I provide technical leadership on high-impact projects, influence and coach a distributed team of engineers,
-    and facilitate alignment and clarity across teams on goals, outcomes, and timelines. I was promoted
-    from Director of Engineering to VP of Engineering in April 2022, and then to VP of Engineering and Head
-    of AI in November 2022. I lead a 20+ person engineering org. I directly manage ~8 engineers and spend
-    >50% of my time writing code.`,
+    name: 'Capgemini America Inc.',
+    position: 'Senior Manager',
+    url: 'https://www.capgemini.com/us-en/',
+    startDate: 'Oct 2021',
+    endDate: 'August 2022',
     highlights: [
-      'Redesigned engineering processes for bug tracking, meetings, and standups. Improved culture for code reviews, blameless post-mortems, and retrospectives.',
-      'Re-architected engineering hiring and onboarding processes. Recruited several strong engineers.',
-      'Reorged engineering teams to focus on product delivery. Created a new team to focus on ML infrastructure.',
-      'Lead re-design of internal APIs for inference. Built new computer vision pipelines for industry leading certifications (NIST/iBeta liveness).',
-      'Pitched, designed, developed, deployed, and maintain a fraud detection product based on 1-N facial recognition using embeddings and vector search.',
+      'Design and implement the operations of key strategic data governance, data quality and data privacy management solutions.',
+      'Recruited, trained, and mentored team members on tools, processes, and best practices'
+      , 'Identify and discuss new opportunities with business partners and turn them into concrete initiatives'
+      , 'Evaluate and address data management challenges, and providing solutions to regional/national level data regulatory mandates.'
+      , 'Work on enterprise products and services, and partner with the business to identify new opportunities and convert them into actionable initiatives and roadmaps.'
     ],
   },
   {
-    name: 'Skeptical Investments',
-    position: 'Co-founder',
-    url: 'http://skepticalinvestments.biz',
-    startDate: '2017-04-01',
-    summary: `Skeptical Investments is a micro-VC fund that makes angel investments. I consult with and invest
-    in startups in the Bay Area. I work part-time on this.`,
+    name: 'Apex Systems LLC',
+    position: 'Database Developer',
+    url: 'https://www.apexsystems.com/',
+    startDate: 'Dec 2019',
+    endDate: 'May 2021',
+   
     highlights: [
-      'Created the InstaSafe. Fast, automated investment docs for YC companies.',
-      'Advise startups on web, mobile, and ML engineering.',
-      'Sourced and analyzed over 1,000 startup deals.',
-      'Invested in over 60 startups.',
+      'Created and maintained database schema objects (tables, views, stored procedures, triggers) ensuring referential integrity in Teradata.'
+      ,'Developed scripts for end-to-end database testing and migration.'
+      ,'Conducted pre-UAT and UAT validation for incentive systems, ensuring smooth deployment.'
+      ,'Analyzed dependencies and prepared roadmaps for database migration initiatives.'
     ],
   },
   {
-    name: 'Arthena',
-    position: 'Co-founder & CTO',
-    url: 'https://arthena.com',
-    startDate: '2014-01-01',
-    endDate: '2022-01-01',
-    summary: `Arthena is a Series A Company funded by <a href='https://www.anthemis.com/'>Anthemis</a>,
-    <a href='https://foundationcapital.com'>Foundation Capital</a>, and <a href='https://ycombinator.com'>YCombinator</a>.
-    We build quantitative strategies to predict the value of fine art and build investment products.
-    I ran a 20-person product and engineering org for 8 years. We were profitable and the #1 art investment platform in the world.`,
+    name: 'Business Intelli Solutions Inc.',
+    position: 'Software Developer',
+    url: 'https://www.businessintelli.com/',
+    startDate: 'Dec 2017',
+    endDate: 'November 2019',
     highlights: [
-      'Built production models for fine art valuation, resulting in $1.5B in cumulative art valuations (70k+ artworks).',
-      'Built computer vision models for artwork identification.',
-      'Designed and implemented CRM, data management, and accounting systems. Performed accounting and tax filings.',
-      'Set up company structure, worked with lawyers, and raised multiple fundraising rounds.',
-      'Managed a team of 15 engineers, data scientists, and analysts.',
+      'Curated and maintained metadata across enterprise systems, supporting data cataloging, lineage tracking'
+      ,'Added and maintained Glossaries, Lineage, and Data Asset Inventory in Informatica Axon to strengthen enterprise-wide data governance practices.'
+      ,'Implemented Data Quality rules in Informatica Analyst, built ETL mappings in IDQ Developer, and monitored KPIs & data quality dashboard.'
+      ,'Designed and implemented stored procedures, complex queries, and reports to provide actionable insights to business stakeholders.'
     ],
   },
   {
-    name: 'Matroid',
-    position: 'Co-founder',
-    url: 'https://matroid.com',
-    startDate: '2016-01-01',
-    endDate: '2016-12-01',
-    summary: `Matroid is a Series A company funded by <a href='https://www.nea.com'>NEA</a> 
-    and <a href='https://www.accel.com'>Accel</a> building computer vision infrastructure.
-    I played a crucial role in the company's early development, contributing to both the
-    technical foundation and strategic direction.`,
+    name: 'Business Intelli Solutions Inc.',
+    position: 'SoftwareDeveloper',
+    url: 'https://www.businessintelli.com/',
+    startDate: 'April 2017',
+    endDate: 'Dec 2017',
     highlights: [
-      'Developed core computer vision algorithms and initial product prototypes.',
-      "Worked with the team to define the company's vision and product roadmap.",
-      'Collaborated with CEO on fundraising and investor relations.',
+      'Engaged with clients to gather requirements and develop SQL queries for customers preferred mode of communications.'
+      ,'Facilitated data to the team by developing and executing complex queries in Oracle (SQL Developer)'
+      ,'Performed ORT testing for the communications sent out to the customers.'
+      ,'Designed and developed ad-hoc reports and trend analyses to provide actionable insights.'
     ],
   },
   {
-    name: 'Planet',
-    position: 'Missions Intern',
-    url: 'https://planet.com',
-    startDate: '2014-06-01',
-    endDate: '2015-01-01',
+    name: 'Infosys',
+    position: 'Tehcnology Analyst',
+    url: 'https://www.infosys.com/',
+    startDate: 'Mar 2010',
+    endDate: 'Nov 2016',
     highlights: [
-      'Developed open source mission control software from scratch in NodeJS.',
-      'Integrated with Google Earth, Cesium, and MATLAB.',
+      'Collaborated with stakeholders to gather requirements, perform impact analysis, and design technical solutions for data integration and reporting.'
+      ,'Designed, developed, tested, and deployed SSIS packages for ETL workflows across multiple data sources, ensuring reliable and automated data pipelines.'
+      ,'Developed and optimized database objects (schemas, tables, views, indexes, stored procedures, and complex queries) in MS SQL Server to improve performance (statistical reporting efficiency got improved by >25%) and maintain data integrity.'
+      ,'Built and maintained SSRS reports and dashboards for operational insights and business decision-making.'
+      ,'Implemented automation and monitoring solutions for ETL jobs and scheduled processes, improving efficiency and reducing manual intervention.'
     ],
   },
-  {
-    name: 'Facebook',
-    position: 'Intern',
-    url: 'https://facebook.com',
-    startDate: '2012-06-01',
-    endDate: '2012-09-01',
-    highlights: [
-      "Developed and optimized Facebook's core news feed algorithms.",
-      'Worked on large-scale data processing and machine learning infrastructure.',
-    ],
-  },
-  {
-    name: 'Startup',
-    position: 'Co-founder',
-    url: '#',
-    startDate: '2012-02-01',
-    endDate: '2013-01-01',
-    summary: 'Started an NFC-based marketing company with a team of four.',
-  },
-  {
-    name: 'UB Nanosatellite Program',
-    position: 'Hardware (Attitude Control) Lead',
-    url: 'https://ubnl.space/',
-    startDate: '2010-10-01',
-    endDate: '2012-06-01',
-    summary: 'Developed and implemented attitude control systems for university satellite project.',
-    highlights: [
-      'Designed Attitude Determination and Control System (ADCS) for satellite.',
-      'Integrated sun sensors, magnetometer, and reaction wheels.',
-      'Developed algorithms for satellite orientation control.',
-    ],
-  },
+  
 ];
 
 export default work;
