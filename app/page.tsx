@@ -34,8 +34,8 @@ export default function HomePage() {
           value.
         </p>
         <p>
-          Please feel free to read more<Link href="/about">about me</Link>, or you can check out my
-          <Link href="/resume">resume</Link>,<Link href="/projects">projects</Link>, view
+          Please feel free to read more <Link href="/about">about me</Link>, or you can check out my 
+          <Link href="/resume">resume</Link>,<Link href="/projects">projects</Link>, view 
           <Link href="/stats">site statistics</Link>, or <Link href="/contact">contact</Link> me
         </p>
       </article>
