@@ -8,11 +8,7 @@ export interface Category {
   name: string;
   color: string;
 }
-
 const skills: Skill[] = [
-  
-  
-  
   {
     title: 'T-SQL',
     competency: 5,
@@ -28,13 +24,11 @@ const skills: Skill[] = [
     competency: 4,
     category: ['Business Intelligence', 'Data Engineering'],
   },
-  
   {
     title: 'ETL Development',
     competency: 4,
     category: ['Business Intelligence', 'Data Engineering'],
   },
- 
   {
     title: 'Data Governance',
     competency: 4,
@@ -55,17 +49,10 @@ const skills: Skill[] = [
     competency: 3,
     category: ['Data Governance', 'Data Management'],
   },
-  
   {
     title: 'Data Integration',
     competency: 4,
     category: ['Data Engineering', 'Data Management'],
-  },
-
-  {
-    title: 'Data Mining',
-    competency: 3,
-    category: ['ML Engineering'],
   },
   {
     title: 'HTML + SASS/SCSS/CSS',
@@ -77,13 +64,11 @@ const skills: Skill[] = [
     competency: 2,
     category: ['Languages', 'Python', 'ML Engineering'],
   },
-
   {
     title: 'Data Reporting & Visualization',
     competency: 4,
     category: ['Data Science', 'Business Intelligence'],
   },
-  
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
 // this is a list of colors that I like. The length should be === to the

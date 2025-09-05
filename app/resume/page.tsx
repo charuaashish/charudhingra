@@ -14,8 +14,7 @@ import work from '@/data/resume/work';
 
 export const metadata: Metadata = {
   title: 'Resume',
-  description:
-    "Charu Dhingra's resume.",
+  description: 'Charu Dhingra resume',
 };
 
 const sections = [
@@ -23,7 +22,6 @@ const sections = [
   { name: 'Experience', id: 'experience' },
   { name: 'Key Achievements', id: 'courses' },
   { name: 'Skills', id: 'skills' },
-
 ];
 
 export default function ResumePage() {
@@ -61,10 +59,6 @@ export default function ResumePage() {
         <div className="link-to" />
         <Skills skills={skills} categories={categories} />
       </section>
-
-     
-
-
     </article>
   );
 }

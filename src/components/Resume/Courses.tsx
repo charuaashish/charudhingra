@@ -9,11 +9,9 @@ interface CoursesProps {
 }
 
 const getRows = (courses: CourseType[]) =>
-  courses
- 
-    .map((course, idx) => (
-      <Course data={course} key={course.title} last={idx === courses.length - 1} />
-    ));
+  courses.map((course, idx) => (
+    <Course data={course} key={course.title} last={idx === courses.length - 1} />
+  ));
 
 const Courses: React.FC<CoursesProps> = ({ data }) => (
   <div className="courses">

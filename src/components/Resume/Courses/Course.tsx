@@ -8,9 +8,8 @@ interface CourseProps {
 }
 
 const Course: React.FC<CourseProps> = ({ data, last = false }) => (
-  <li className="Job-container" style={{transform: 'lowercase'}}>
-      <p className="course-name" style={{transform: 'lowercase'}}>{data.title}</p>
-   
+  <li className="Job-container">
+    <p className="course-name">{data.title}</p>
   </li>
 );
 

@@ -23,35 +23,35 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: "Charu Dhingra",
-    template: "%s | Charu Dhingra",
+    default: 'Charu Dhingra',
+    template: '%s | Charu Dhingra',
   },
   description:
-    "Charu Dhingra's personal website. Data Governance Specialist, Data Engineer, Data Quality Engineer, Data Analyst",
+    'Charu Dhingra personal website. Data Governance Specialist, Data Engineer, Data Quality Engineer, Data Analyst',
   keywords: [
-    "Charu Dhingra",
+    'Charu Dhingra',
     'data scientist',
     'Data Governance Specialist',
     'BI Developer',
     'data engineer',
     'data quality',
   ],
-  authors: [{ name: "Charu Dhingra" }],
-  creator: "Charu Dhingra",
+  authors: [{ name: 'Charu Dhingra' }],
+  creator: 'Charu Dhingra',
   metadataBase: new URL('https://charudingra.onrender.com'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://charudingra.onrender.com',
-    siteName: "Charu Dhingra",
-    title: "Charu Dhingra",
+    siteName: 'Charu Dhingra',
+    title: 'Charu Dhingra',
     description: 'Data Governance Specialist, Data Engineer, Data Quality Engineer, BI Developer',
     images: [
       {
         url: '/images/me.jpg',
         width: 1200,
         height: 630,
-        alt: "Charu Dhingra",
+        alt: 'Charu Dhingra',
       },
     ],
   },

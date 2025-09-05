@@ -10,9 +10,7 @@ const validateText = (text: string): boolean => {
   return re.test(text) || text.length === 0;
 };
 
-const messages = [
-  'cd.cdhingra',
-];
+const messages = ['cd.cdhingra'];
 
 const useInterval = (callback: () => void, delay: number | null) => {
   const savedCallback = useRef<() => void>(callback);

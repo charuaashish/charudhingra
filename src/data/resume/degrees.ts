@@ -12,7 +12,6 @@ const degrees: Degree[] = [
     link: 'https://mdu.ac.in/default.aspx',
     year: 2009,
   },
- 
 ];
 
 export default degrees;

@@ -25,7 +25,6 @@ const Age: React.FC = () => {
 };
 
 const data: StatData[] = [
-
   {
     key: 'countries',
     label: 'Countries visited',

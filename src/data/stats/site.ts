@@ -6,8 +6,5 @@ import { StatData } from '../../components/Stats/types';
  * mostly jokes. To see everything returned by the github api, run:
  curl https://api.github.com/repos/mldangelo/personal-site
  */
-const data: StatData[] = [
-  
-];
-
+const data: StatData[] = [];
 export default data;
